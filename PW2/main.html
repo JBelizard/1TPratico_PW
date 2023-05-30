@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal ProjPW</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <!--Cabeçalho da página, strong - para negrito-->
+    <header><b>1ºPROJETO - PROGRAMAÇÃO WEB</b></header><hr>
+    <!--Cor à um prargráfo vazio-->
+
+    <div>
+        <p1><!--B - Para negritar, i - para itálico-->
+            <b><i>MADINA</i></b> é uma página que apresenta seguintes Hbbies, pela qual os 
+            utilizadores podem aceder a página de uma forma gratuita, seguro e de fácil utilidade. 
+            A página contém formulário pela qual os utilizadores podem-se registrar na página 
+            para tornar-se como membro e deixaram seus comentários. Os Hobbies apresentadas 
+            na página são <b><i>ESPORTE</i></b>, <b><i>CULINÁRIA</i></b> e <b><i>MÚSCA</i></b>. 
+            Onde os utlizadores podem encontrar diversas informações dos Hobbies.
+        </p1>
+    </div><hr>
+
+    <div style="text-align: center; 
+                    background-color: black; 
+                    color: white; font-size: 
+                    20px;">
+                    <h1>APRESENTAÇÃO</h1>
+                    <!--Botões, mudar cor da página, referenciado em main.js-->
+    </div>
+
+    <section>
+        <center>
+            <button class="BotaoEsporte" style="font-size: 60px; 
+            background-color: black;">
+                <a href="Esporte.html" target="_blank"> <!--target_blank - abri nova haba-->
+                    ESPORTE
+                </a>
+            </button>
+            <button class="BotaoEsporte" style="font-size: 60px; 
+            background-color: black;">
+                <a href="Culinaria.html" target="_blank"> 
+                    CULINARIA
+                </a>
+            </button>
+            <button class="BotaoEsporte" style="font-size: 60px; 
+            background-color: black;">
+                <a href="Musica.html" target="_blank">
+                    MUSICA
+                </a>
+            </button>
+        </center>
+    </section><hr>
+
+    <!--width - Largura, height - alura-->
+    <img src="Fotos/imagem2.webp" alt="Descrição da imagem: 
+    Floresta seca" width="1440" height="450"><Hr>
+    <div    
+            color: white; font-size: 
+            90px;">
+            <h2>DADOS ADMINISTRADOR</h2>
+            <!--Tabela da página-->
+                <table border="4px">
+                    <!--(border - é para põr borda da tabela)-->
+                    <tr>
+                        <th>Id</th> <!--Cabeçalho de coluna 1-->
+                        <th>Nome</th> <!--Cabeçalho de coluna 2-->
+                        <th>Nº Aluno</th> 
+                        <th>Disciplina</th>
+                        <th>Simestre</th>
+                        <th>Curso</th> 
+                        <th>Ano de Curso</th>
+                        <th>Nacionalidade</th>  
+                    </tr>
+                    <tr>
+                        <td>1</td> <!--Posiçãa(linha2 e coluna1)-->
+                        <td>Belizard</td> <!--Posiçãa(linha2 e coluna2)-->
+                        <td>26474</td> 
+                        <td>Programação Web</td>
+                        <td>2</td>
+                        <td>ERSC</td>
+                        <td>2º Ano</td>
+                        <td>Guiné,Bissau</td> 
+                    </tr>
+                </table>
+    </div><hr><br>
+
+    <form action="">
+        <!--(fieldset - Colocar conteudos dentro do formulário)-->
+        <fieldset>
+            <legend> - Formulario - Cadastro de utilizador na página</legend>
+            <br>
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Introduza nome" required>
+            <!--(placebolder - Pôr marca de agua num campo a ser preenchido)-->
+            <!--(requered - Obriga utilizador preencher todos campos antes submissão)-->
+            
+            
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Introduza email" required name="email" id="email">
+            
+            
+            <label for="telefone">Telefone:</label>
+            <input type="number" placeholder="Introduza telefone" required name="telefone" id="telefone">
+            
+            
+            <label for="passs">Password:</label>
+            <input type="password" placeholder="Introduza senha" required name="pass" id="pass">
+            
+            
+            <label for="dn">Data de nascimento:</label>
+            <input type="date" name="dn" id="dn">
+            <br>
+            <br>
+            <label for="genero">Genero:</label>
+            <input type="radio" name="Genero" id="M">M:
+            <input type="radio" name="Genero" id="F">F:
+            
+            
+            <label for="curso">Hobbies Preferido:</label>
+            <!--(select - permite-nos utilizard vários opções na página)-->
+            <select name="Cursos" id="Curso">
+                <option value="Esporte">Esporte:</option>
+                <option value="Musica">Musica:</option>
+                <option value="Culinaria">Culinaria:</option>
+            </select>
+            <br>
+            <br>
+            <label for="Mensagem">Deixe seu comentário sobre a página:</label><br>
+            <textarea name="" id="" cols="158" rows="10"></textarea>
+            <!-- texrarea - Põr bloco de nota, deixar mensagem)
+            cols - largura; rowse - altura;
+            -->
+            <br>
+            <br>
+            <input type="reset" value="Limpar dados">
+            <!--(Botão, limpar dados inseridos, "reset - sig rejeitar e limpar")-->
+            <input type="submit" value="Enviar dados">
+
+        </fieldset>
+    </form>
+    <hr>
+    <!--Rodapá da página-->
+    <div style="text-align: center; 
+            background-color: black; 
+            color: white; font-size: 
+            20px;">
+            <h1>Informações do site</h1>
+            Morada: xxxxxxxxxxxxxxxxx<br>
+            Email: xxxxxxxxxxxxxxxxx<br>
+            Contatos: xxxxxxxxxxxxxxxxx<br>
+            Cidade: xxxxxxxxxxxxxxxxx<br>
+            País: xxxxxxxxxxxxxxxxx<br>
+            Politica de privacidade:<br><br>
+
+            <img src="Fotos/imagem4.png" alt="Descrição da imagem: text-align: left;
+            Floresta seca" width="350" height="35">
+    </div>
+
+
+
+</body>
+</html>
+
+
+

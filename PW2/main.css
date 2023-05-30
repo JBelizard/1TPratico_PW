@@ -1,0 +1,35 @@
+/*Tamanho da página*/
+body { min-height: 100vh; }
+
+/*Tamanho da letra da página*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cor cinza para página (whitesmoke)*/
+body{
+  background-color: green;
+}
+
+/*Tipo de Letra para página*/
+p {
+  font-family: Times New Roman;
+  font-size: 20px;
+}
+/*aLGUMAS DEFINIÇÕES*/
+header{
+    background: blue;
+    font-size:60pt; /*tamanho */
+    height:100px; /*Altura da página*/
+    padding-top:20px;/*Propriedade CSS usada para definir espaçamento acima do conteúdo de um elemento HTML*/
+    text-align:center;
+    color:black;
+    border-radius: 10px;/*Borda*/
+}
+
+/*Tmanho do paragráfo*/
+p1 {
+  font-size: 30px;
+  color: black; /*Cor do paragráfo*/
+}
+
